@@ -336,7 +336,7 @@ body {
 .reveal pre code {
 	padding: 5px;
 	overflow: auto;
-	max-height: 400px;
+	max-height: 100%;
 	word-wrap: normal;
 }
 .reveal pre.stretch code {
@@ -1875,6 +1875,12 @@ body {
 
 .zoomed .reveal .roll span:after {
 	visibility: hidden;
+}
+
+.reveal li.padded, 
+.reveal section p.padded{
+    padding-top:1em;
+    padding-bottom:1em;
 }
 
 
