@@ -5,7 +5,7 @@
 ```ruby
 Parameter "SQSRetentionPeriod" do
   String
-  Descrption "The Retention period for the queues generated in this example"
+  Description "The Retention period for the queues generated in this example"
 end
 
 queues = [
